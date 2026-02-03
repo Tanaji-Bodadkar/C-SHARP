@@ -1,0 +1,22 @@
+using System;
+
+class UserDetails
+{
+    static void Main(string[] args)
+    {
+        string name = "Tanaji Bodadkar";
+        int age = 20;
+        string city = "Latur";
+        string college = "MIT Aurangabad";
+        string course = "B.Tech CSE (Design)";
+
+        Console.WriteLine("----- USER DETAILS -----");
+        Console.WriteLine("Name: " + name);
+        Console.WriteLine("Age: " + age);
+        Console.WriteLine("City: " + city);
+        Console.WriteLine("College: " + college);
+        Console.WriteLine("Course: " + course);
+
+        Console.ReadLine();
+    }
+}
