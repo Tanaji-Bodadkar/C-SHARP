@@ -1,0 +1,8 @@
+using System;
+
+class Program {
+    static void Main() {
+        var data = (id: 1, name: "Samiksha");
+        Console.WriteLine(data.id + " " + data.name);
+    }
+}
