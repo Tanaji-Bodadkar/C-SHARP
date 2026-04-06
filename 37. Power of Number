@@ -1,0 +1,10 @@
+using System;
+
+class Program {
+    static void Main() {
+        int a = 2, b = 3;
+        double result = Math.Pow(a, b);
+
+        Console.WriteLine(result);
+    }
+}
