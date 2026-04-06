@@ -1,0 +1,10 @@
+using System;
+
+enum Days { Mon, Tue, Wed }
+
+class Program {
+    static void Main() {
+        Days d = Days.Tue;
+        Console.WriteLine(d);
+    }
+}
