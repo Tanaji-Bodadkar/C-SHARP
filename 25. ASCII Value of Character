@@ -1,0 +1,10 @@
+using System;
+
+class Program {
+    static void Main() {
+        char ch = 'A';
+        int ascii = ch;
+
+        Console.WriteLine("ASCII = " + ascii);
+    }
+}
