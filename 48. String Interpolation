@@ -1,0 +1,8 @@
+using System;
+
+class Program {
+    static void Main() {
+        string name = "Tanaji";
+        Console.WriteLine($"Hello {name}");
+    }
+}
