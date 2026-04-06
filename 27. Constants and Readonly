@@ -1,0 +1,15 @@
+using System;
+
+class Demo {
+    const int x = 10;
+    readonly int y;
+
+    public Demo() {
+        y = 20;
+    }
+
+    static void Main() {
+        Demo obj = new Demo();
+        Console.WriteLine(obj.y);
+    }
+}
