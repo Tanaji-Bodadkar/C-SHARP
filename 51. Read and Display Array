@@ -1,0 +1,11 @@
+int[] arr = new int[5];
+
+for(int i = 0; i < arr.Length; i++)
+{
+    arr[i] = int.Parse(Console.ReadLine());
+}
+
+foreach(int num in arr)
+{
+    Console.Write(num + " ");
+}
